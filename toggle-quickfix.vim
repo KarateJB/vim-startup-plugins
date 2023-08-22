@@ -1,5 +1,5 @@
 " Open/Close quickfix with custom key
-nnoremap <leader>q :call ToggleQuickfix()<CR>
+nnoremap <silent> <leader>q :call ToggleQuickfix()<CR>
 
 let g:is_quickfix_opened = 0
 
