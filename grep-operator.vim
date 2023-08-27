@@ -14,7 +14,11 @@ function! s:GrepOperator(type)
     return
   endif
 
-  silent execute "grep! -R " . shellescape(@@) . " ."
+  if has("gui_running")
+    silent execute "vimgrep " . shellescape(@@) . " **/*"
+  else
+    silent execute "grep! -R " . shellescape(@@) . " ."
+  endif
   copen
 
   let @@ = tmp_unnamed_reg
