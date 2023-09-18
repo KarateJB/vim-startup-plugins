@@ -12,3 +12,5 @@ endfunction
 
 " Command: FF
 command! -nargs=* FF call FZF()
+
+" If you enconters "no swap file" error, either remove the custom swap file location (option: "dir[ectory]") or type ":e! %" after opening the file.
