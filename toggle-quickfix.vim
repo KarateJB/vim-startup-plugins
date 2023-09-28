@@ -1,10 +1,11 @@
 " Open/Close quickfix with custom key
-nnoremap <leader>q :call ToggleQuickfix()<CR>
+nnoremap <silent> <leader>q 
+      \ :call <SID>ToggleQuickfix()<CR>
 
 let g:stay_current_buffer = 1
 let g:is_quickfix_opened = 0
 
-function! ToggleQuickfix()
+function! s:ToggleQuickfix()
   if g:is_quickfix_opened
     cclose
     let g:is_quickfix_opened = 0
