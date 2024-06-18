@@ -1,4 +1,3 @@
----
 ## Install
 
 Clone this repository in the "plugin" directory of `runtimepath`.
