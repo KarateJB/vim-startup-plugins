@@ -11,13 +11,28 @@ To see the paths of `runtimepath`:
 Or clone it into the "plugin" directory of Vim executable's root path.
 
 ---
-## Options/Variables
+## Scripts
+
+### fzf-search
+
+I suggest to use [fzf.vim](https://github.com/junegunn/fzf.vim) for using fzf in Vim.
+This plugin is for those has problems with fzf.vim.
+
+| Command | Description |
+|:-------:|:------------|
+| :FF | Open fzf to search files. |
+
 
 ### grep-operator
+
+| Hotkey | Description |
+|:------:|:------------|
+| <leader>g | Use `grep` to search current selected word(s). |
 
 | Option | Description | Sample |
 |:------:|:------------|:-------|
 | g:vsp_grep_by_rg | Use ripgrep to search, [jremmen/vim-ripgrep](https://github.com/jremmen/vim-ripgrep) is required. | `:let g:vsp_grep_by_rg=1` |
+
 
 ### sqlplus
 
@@ -27,10 +42,26 @@ Or clone it into the "plugin" directory of Vim executable's root path.
 | g:vsp_oracle_db_pwd | Like g:vsp_oracle_db_id, but is the password for the user ID. | |
 | g:vsp_oracle_db_tnsname | Like g:vsp_oracle_db_id, but is the tnsname you want to connect. | |
 
----
-## Commands
 
-To check if the plugin is loaded:
+### sum-numbers
+
+| Command | Description |
+|:-------:|:------------|
+| :Sum | Sum all the numbers in current buffer and echo it, also yank the result to register s. |
+
+
+### toggle-copilot
+
+(TBD)
+
+### toggle-quickfix
+
+(TBD)
+
+---
+## Trouble Shooting
+
+Check if the plugin is loaded:
 ```
 :filter vim-startup-plugins scriptnames
 ```
