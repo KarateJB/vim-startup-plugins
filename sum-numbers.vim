@@ -11,7 +11,7 @@ function! s:SumNumbers()
     let total += num
   endfor
 
-  " Yank the result into register "s"
+  " Yank the result into register s
   let @s = string(total)
   " Display the result in the command line
   " echo "Sum:" . total

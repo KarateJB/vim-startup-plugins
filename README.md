@@ -36,6 +36,11 @@ This plugin is for those has problems with fzf.vim.
 
 ### sqlplus
 
+| Command | Description |
+|:-------:|:------------|
+| :Sqlplus | Execute all the sql in current buffer. |
+
+
 | Option | Description | Sample |
 |:------:|:------------|:-------|
 | g:vsp_oracle_db_id | The user ID for Oracle DB when using `:Sqlplus`. | `:let g:vsp_oracle_db_id=xxx` |
@@ -52,11 +57,16 @@ This plugin is for those has problems with fzf.vim.
 
 ### toggle-copilot
 
-(TBD)
+| Hotkey | Description |
+|:------:|:------------|
+| <leader>ct | Toggle [Copilot.vim](https://github.com/github/copilot.vim) to be enabled/disalbed. |
+
 
 ### toggle-quickfix
 
-(TBD)
+| Hotkey | Description |
+|:------:|:------------|
+| <leader>q | Toggle quickfix window to be opened/hidden. |
 
 ---
 ## Trouble Shooting
