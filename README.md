@@ -11,7 +11,16 @@ To see the paths of `runtimepath`:
 Or clone it into the "plugin" directory of Vim executable's root path.
 
 ---
-## Scripts
+## Plugins
+
+### edit-file
+
+Edit a file with either an Unix path or a Windows path.
+
+| Command | Description |
+|:-------:|:------------|
+| :Efile <path> | Edit the file, the path can be an Unix path or Windows path. |
+
 
 ### fzf-search
 
