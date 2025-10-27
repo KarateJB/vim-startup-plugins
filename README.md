@@ -22,6 +22,21 @@ Edit a file with either an Unix path or a Windows path.
 | :Efile <path> | Edit the file, the path can be an Unix path or Windows path. |
 
 
+### focus-window
+
+Move the cursor to the window by buffer number.
+
+| Command | Description |
+|:-------:|:------------|
+| :FocusWindowByBuffer N | N is the buffer number. |
+
+The hotkey brings out `:FocusWindowByBuffer ` in command mode, so that you can just enter the buffer number.
+
+| Hotkey | Description |
+|:------:|:------------|
+| <leader>fw | Brings out the `FocusWindowByBuffer` command. |
+
+
 ### fzf-search
 
 I suggest to use [fzf.vim](https://github.com/junegunn/fzf.vim) for using fzf in Vim.
