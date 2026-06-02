@@ -29,4 +29,4 @@ endfunction
 
 " Map <leader>fw to pre-fill the command :FocusWindowByBuffer
 command! -nargs=1 FocusWindowByBuffer call FocusWindowByBuffer(<args>)
-nnoremap <silent> <leader>fw :FocusWindowByBuffer 
+nnoremap <leader>fw :FocusWindowByBuffer 
