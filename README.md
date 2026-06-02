@@ -34,7 +34,8 @@ The hotkey brings out `:FocusWindowByBuffer ` in command mode, so that you can j
 
 | Hotkey | Description |
 |:------:|:------------|
-| <leader>fw | Brings out the `FocusWindowByBuffer` command. |
+| <leader>ww | Brings out the `FocusWindowByBuffer` command. |
+
 
 
 ### fzf-search
